@@ -1,0 +1,16 @@
+*,h1,h2,h3,h4,h5,h6,p{ margin:0; padding:0px; font-size:12px;}
+ul,ol,dl,dt,dd{ margin:0px; padding:0px;}
+li{ list-style:none;}
+a{text-decoration:none; color:#000;}
+a img{ boder:0;}
+h1,h2,h3,h4,h5,h6{font-weight:normal; }
+b,strong{ font-weight:normal;}
+.clearfix:after{display:block; content:''; clear:both;}
+.clearfix{zoom:1;}
+i em{ font-style:normal;}
+.fl{ float:left;}
+.fr{ float:right;}
+.img{ display:block;}
+input,textarea{ border:0; outline:none;}
+table{ border-collapse:collapse;}
+th,td{ border:1px solid #000; padding:0;}
