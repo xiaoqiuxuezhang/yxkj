@@ -1,5 +1,6 @@
 module.exports = {
   productionSourceMap: false,
+  lintOnSave: false,
   publicPath: process.env.NODE_ENV === 'production' ? '/' : '/',
   devServer: {
     historyApiFallback: true,
@@ -16,10 +17,10 @@ module.exports = {
     }
   },
   chainWebpack: config => {
-    // config
-    //   .entry('index')
-    //   .add('babel-polyfill')
-    //   .end();
+    config
+      .entry('index')
+      .add('babel-polyfill')
+      .end();
     // 生产环境配置
     if (process.env.NODE_ENV === 'production') {
       // 删除预加载
